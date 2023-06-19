@@ -1,0 +1,13 @@
+Problema Retele - se aseamana problemei Vertex-Cover asa ca ce am facut a fost sa implementez
+clauzele din exemplul oferit pentru a face reducerea la SAT.
+Clauzele sunt urmatoarele:
+1. Primul tip de clauze asigura faptul ca exista o variabila True pentru fiecare
+pozitie din Vertex-Cover.
+2. Al doilea tip de clauze se asigura ca nu exista doua noduri diferita pe aceasi
+pozitie in Vertex-Cover.
+3. Acest tip de clauza se asigura ca un nod nu se poate afla pe doua pozitii
+diferite din Vertez-Cover in acelasi timp.
+4. Aceasta clauza se asigura ca pentru fiecare muchie din grafic macar un nod
+se afla pe o pozitie din Vertex-Cover.
+
+
